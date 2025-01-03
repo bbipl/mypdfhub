@@ -1,0 +1,312 @@
+.jpg-to-pdf-container,
+.convert-pdf-container,
+.word-to-pdf-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.dropbox {
+  border: 2px dashed #007bff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropbox:hover {
+  background-color: #e6f7ff;
+}
+
+.file-upload-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.file-upload-button input {
+  display: none;
+}
+
+.file-list {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.file-list h3 {
+  margin-bottom: 10px;
+}
+
+.file-list ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.file-list li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.action-buttons {
+  margin-top: 20px;
+}
+
+.remove-button,
+.convert-button,
+.download-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.convert-button:hover {
+  background-color: #218838;
+}
+
+.download-button:hover {
+  background-color: #0069d9;
+}
+
+.add-page-numbers-container,
+.powerpoint-to-pdf-container,
+.convert-powerpoint-to-pdf-container,
+.excel-to-pdf-container,
+.convert-excel-to-pdf-container,
+.html-to-pdf-container,
+.convert-html-to-pdf-container,
+.pdf-to-jpg-container,
+.convert-pdf-to-jpg-container,
+.pdf-to-word-container,
+.convert-pdf-to-word-container,
+.pdf-to-powerpoint-container,
+.convert-pdf-to-powerpoint-container,
+.pdf-to-excel-container,
+.convert-pdf-to-excel-container,
+.merge-pdf-container,
+
+.split-pdf-container,
+.convert-split-pdf-container,
+.remove-pages-container,
+.convert-remove-pages-container,
+.extract-pages-container,
+.convert-extract-pages-container,
+.organize-pdf-container,
+.convert-organize-pdf-container,
+.compress-pdf-container,
+.convert-compress-pdf-container,
+.scan-to-pdf-container,
+.convert-scan-to-pdf-container,
+.repair-pdf-container,
+.convert-repair-pdf-container,
+.ocr-pdf-container,
+.convert-ocr-pdf-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.organize-options,
+.extract-options,
+.remove-options,
+.split-options,
+.compression-options,
+.ocr-options {
+  margin-top: 20px;
+}
+
+.organize-options label,
+.extract-optaions label,
+.remove-options label,
+.split-options label,
+.compression-options label,
+.ocr-options label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.organize-options input,
+.extract-options input,
+.remove-options input,
+.split-options input,
+.compression-options select,
+.ocr-options select {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-watermark-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.compare-pdf-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.remove-file-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.remove-file-button:hover {
+  background-color: #c82333;
+}
+
+.compare-action {
+  margin-top: 20px;
+}
+
+.compare-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.compare-button:hover {
+  background-color: #218838;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+
+
+.convert-merge-pdf-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.pdf-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pdf-item {
+  width: 120px;
+  text-align: center;
+  cursor: grab;
+}
+
+.pdf-item img {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.pdf-item p {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.action-buttons {
+  margin-top: 20px;
+}
+
+.merge-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.merge-button:hover {
+  background-color: #c0392b;
+}
+
+
+
+.file-info {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.clear-file-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clear-file-button:hover {
+  background-color: darkred;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}

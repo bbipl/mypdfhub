@@ -1,0 +1,105 @@
+/* General navbar styles */
+.navbar {
+    background-color: #ffffff; /* White background */
+    padding: 0.8rem 1.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-logo {
+    
+      height: 50px;
+      margin-right: 10px;
+      object-fit: contain;
+      border-radius: 20px;
+    
+    
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .navbar-brand:hover {
+    text-decoration: none;
+    color: #dc3545; /* Red */
+  }
+  
+  /* Toggler button styles */
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  /* Navbar links */
+  .nav-link {
+    color: #555;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+  
+  }
+  .navbar-nav .nav-item {
+    margin: 0 20px; /* Adds horizontal spacing between nav items */
+  }
+  
+  .nav-link:hover {
+    color: #dc3545; /* Red */
+  }
+  
+  .nav-link.login-link {
+    color: #007bff; /* Blue */
+    font-weight: 500;
+  }
+  
+  .nav-link.signup-btn {
+    color: #fff;
+    background-color: #dc3545; /* Red */
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+  }
+  
+  .nav-link.signup-btn:hover {
+    background-color: #bb2d3b; /* Darker red */
+    color: #fff;
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    border: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-item {
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  .dropdown-item:hover {
+    color: #dc3545;
+    background-color: #f8f9fa;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 991.98px) {
+    .nav-link {
+      text-align: left;
+      padding-left: 1.5rem;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-item {
+      margin-bottom: 0.5rem;
+    }
+  }
+  

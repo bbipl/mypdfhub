@@ -1,0 +1,129 @@
+.tool-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.file-upload-area {
+  border: 2px dashed #007bff;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 2rem 0;
+}
+
+.file-upload-area.active {
+  border-color: #28a745;
+  background-color: rgba(40, 167, 69, 0.1);
+}
+
+.upload-icon {
+  font-size: 3rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.selected-files {
+  margin: 2rem 0;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.remove-file {
+  background: none;
+  border: none;
+  color: #dc3545;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.arrow-down {
+  color: #6c757d;
+  margin: 0.5rem auto;
+}
+
+.merge-button {
+  width: 100%;
+  padding: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.merge-button:hover {
+  background: #0056b3;
+}
+
+.merge-button:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+}
+
+.page-ranges {
+  margin: 2rem 0;
+}
+
+.page-ranges label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.page-ranges-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.page-ranges small {
+  color: #6c757d;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  margin-right: 0.5rem;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.process-button {
+  width: 100%;
+  padding: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.process-button:hover {
+  background: #0056b3;
+}
+
+.process-button:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+} 

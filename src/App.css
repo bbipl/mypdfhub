@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+}
+.app-container {
+  min-height: 100vh; /* Ensure the container takes up at least full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1; /* Ensure the main content takes up available space */
+}
