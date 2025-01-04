@@ -199,7 +199,7 @@
   background-color: #218838;
 }
 
-.footer {
+/* .footer {
   background-color: #222;
   color: #fff;
   padding: 20px;
@@ -226,7 +226,7 @@
 
 .footer-links {
   margin-top: 10px;
-}
+} */
 
 
 
@@ -309,4 +309,108 @@
 .error-message {
   color: red;
   margin-bottom: 10px;
+}
+
+/* General Footer Styles */
+.footer {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 40px 50px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  border-top: 1px solid #ddd;
+}
+
+.footer-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-column {
+  flex: 1 1 200px; /* Allows columns to adjust size dynamically */
+  margin: 10px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  color: #e63946;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #e63946;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #555;
+}
+
+.footer-social-links,
+.footer-app-links {
+  margin: 15px 0;
+}
+
+.footer-social-links a,
+.footer-app-links a {
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-social-links a:hover {
+  color: #e63946;
+}
+
+.footer-app-links img {
+  height: 40px;
+  margin: 0 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    text-align: center;
+  }
+
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
 }
